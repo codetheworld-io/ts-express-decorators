@@ -1,0 +1,16 @@
+### Hello
+GET http://localhost:3000
+
+### Add new cat
+POST http://localhost:3000/cats
+Content-Type: application/json
+
+{
+  "name": "new-cat"
+}
+
+### Get cats
+GET http://localhost:3000/cats
+
+### Find cat by name
+GET http://localhost:3000/cats/new-cat
